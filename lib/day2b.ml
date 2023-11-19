@@ -8,9 +8,9 @@ let map_jajanken = function
     | _ -> Rock
 
 let map_action = function
-    | "X" -> Win
+    | "Z" -> Win
     | "Y" -> Draw
-    | "Z" -> Lose
+    | "X" -> Lose
     | _ -> Win
 
 let jajanken_score o1 o2 = 
